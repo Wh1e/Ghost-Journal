@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #000;
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .ghosts {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 10px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  h2 {
+    color: white;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  
+  div {
+    height: 90vh;
+    margin: 20px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: url(./ezgif.com-webp-to-jpg.jpg);
+    background-size: cover;
+  }
+
+  
+  a.back-to-top {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  a.back-to-top:hover {
+    text-decoration: none;
+  }
+  
